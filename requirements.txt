@@ -3,3 +3,6 @@ plotly.express
 pandas
 transformers
 unoconv
+groq
+python-docx
+python-pptx
