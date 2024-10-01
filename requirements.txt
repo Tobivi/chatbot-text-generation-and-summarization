@@ -6,3 +6,5 @@ unoconv
 groq
 python-docx
 python-pptx
+pdfplumber
+python-dotenv
