@@ -128,7 +128,7 @@ def generate_powerpoint(summary):
 
 def generate_text_with_groq_streaming(prompt):
     completion = client.chat.completions.create(
-        model="llama-3.1-70b-versatile",
+        model="deepseek-r1-distill-llama-70b",
         messages=[{"role": "user", "content": prompt}],
         temperature=1,
         max_tokens=7000,
